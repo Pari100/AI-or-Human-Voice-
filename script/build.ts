@@ -23,7 +23,9 @@ async function build() {
         'cors',
         'dotenv',
         'multer',
-        'waveform-data'
+        'waveform-data',
+        'lightningcss',
+        'vite',
       ],
       sourcemap: true,
       minify: true,

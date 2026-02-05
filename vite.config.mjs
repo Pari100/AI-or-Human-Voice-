@@ -26,5 +26,8 @@ export default defineConfig(async () => {
     build: {
       outDir: path.resolve(path.dirname(new URL(import.meta.url).pathname), 'dist/public'),
     },
+    optimizeDeps: {
+      exclude: ['lightningcss'],
+    },
   };
 });
